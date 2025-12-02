@@ -29,3 +29,27 @@ ApplicationPath=../../../Returnal.exe
 WorkingDirectory=
 WaitForExit=1
 NoOperation=0
+
+
+# PROMPTs
+
+# Prompt 1:
+"estou fazendo uma lista da disciplina de padroes de projeto, me ajude com as questoes me mostrando o passo a passo para que consiga faze-la, segue a primeira questao:
+'enunciado completo'
+
+Resposta da IA (Gemini):
+
+Gerou um roteiro completo de implementação passo a passo com:
+● Criação da classe ConfigurationManager aplicando o padrão Singleton
+● Implementação das funcionalidades de leitura
+● Criação da classe cliente Main
+
+
+Cada passo incluiu:
+● Código completo do arquivo
+● Exemplo de Mensagem de commit
+● Justificativa do conceito no código (padrão Singleton)
+
+E por fim, a Saída esperada do programa.
+
+A IA conseguiu me ajudar sem erros.
