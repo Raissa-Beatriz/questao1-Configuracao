@@ -47,4 +47,17 @@ public class ConfigurationManager {
             }
         }
     }
+
+    // Permite que partes do sistema peguem apenas uma config específica
+    public String getProperty(String key) {
+        return properties.get(key);
+    }
+
+    // Imprime tudo de uma vez
+    public void printAllProperties() {
+        for (Map.Entry<String, String> entry : properties.entrySet()) {
+            // Formato estrito: Chave=Valor
+            System.out.println(entry.getKey() + "=" + entry.getValue());
+        }
+    }
 }
